@@ -1,0 +1,26 @@
+import random
+
+print("Greetings!! Welcome to our Spin a Yarn, let's hope you have fun")
+
+name = input("What is your good name?")
+gender = input("Whats your gender? male/female").lower()
+
+print("Hello", name, "lets get started")
+
+word_1 = input("Enter a word of your choice")
+word_2 = input("Another one please")
+word_3 = input("One more please")
+word_4 = input("I need some more ")
+word_5 = input("Lets do one more")
+word_6 = input("I am making a story i'll need more")
+word_7 = input("Okay, last one")
+word_8 = input("This is the last")
+word_9 = input("uhumm last")
+word_10= input("Promise this is the last one")
+
+print("Over, that was the last")
+
+if gender == "male":
+ print("Once upon a time, there was a boy named", name, "he loved working in the", word_1, "all day. One day while he was riding a",word_2, "he saw a", word_3,"he found it so cute that he grabbed it and kissed it. He then went back home and told his parents about it, his parents reated in a ", word_4,"manner, he was shocked. The next day he picked up",word_3, "and took it home with him, he kept it hidden from his parents in his room, he loved it so much he woould play with it all day. The very next day he saw something very special, it was a", word_5,"he saw something like this the first time in his life and was quite confused, so he decided to eat it. He felt very",word_4," The very night while sleeping he experienced something happening to his body, he woke up and tuned on the", word_7, "he noticed that his body was changing, maybe because of the",word_6, "he ate. After waking up the next morning, he decided to tell this to his parents so that they would take him to the doctor. When he told about this to his parents they gave him a",word_8, "and told him that everything will be alright very soon. His parents drove him to the doctor and the doctor said that he is having something he should not, a", word_9, "in his body. The doctor prescribed him some",word_10,"and asked him to take it twice a day.",name,"recorved within a matter a couple days")
+else:
+    print("Once upon a time, there was a named named", name, "she loved working in the", word_1, "all day. One day while she was riding a",word_2, "she saw a", word_3,"she found it so cute that she grabbed it and kissed it.She then went back home and told her parents about it, her parents reated in a ", word_4,"manner, she was shocked. The next day she picked up",word_3, "and took it home with her, she kept it hidden from her parents in her room, she loved it so much she woould play with it all day. The very next day she saw something very special, it was a", word_5,"she saw something like this the first time in her life and was quite confused, so she decided to eat it. She felt very",word_4," The very night while sleeping she experienced something happening to her body, she woke up and tuned on the", word_7, "she noticed that her body was changing, maybe because of the",word_6, "she ate. After waking up the next morning, she decided to tell this to her parents so that they would take her to the doctor. When she told about this to her parents they gave her a",word_8, "and told her that everything will be alright very soon. Her parents drove her to the doctor and the doctor said that she is having something she should not, a", word_9, "in his body. The doctor prescribed her some",word_10,"and asked her to take it twice a day.",name,"recorved within a matter a couple days")
